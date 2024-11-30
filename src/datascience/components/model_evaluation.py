@@ -12,7 +12,7 @@ from src.datascience.utils.common import read_yaml, create_directories, save_jso
 
 os.environ["MLFLOW_TRACKING_URI"]="https://dagshub.com/Luminousbyte/DataScienceProject.mlflow"
 os.environ["MLFLOW_TRACKING_USERNAME"]="Luminousbyte"
-os.environ["MLFLOW_TRACKING_PASSWORD"]="652651d5cb56526c2d330d69858078e93ced17e3"
+os.environ["MLFLOW_TRACKING_PASSWORD"]=""
 
 class ModelEvaluation:
     def __init__(self, config: ModelEvaluationConfig):
